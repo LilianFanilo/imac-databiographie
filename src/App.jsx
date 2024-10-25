@@ -13,9 +13,9 @@ function App() {
       if (wrapperRef.current && !isScrolling) {
         wrapperRef.current.scrollLeft += e.deltaY * 15.2;
         isScrolling = true;
-        setTimeout(() => {
-          isScrolling = false;
-        }, 1000);
+        // setTimeout(() => {
+        //   isScrolling = false;
+        // }, 1000);
       }
     };
 
