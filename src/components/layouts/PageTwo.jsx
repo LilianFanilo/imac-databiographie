@@ -4,7 +4,7 @@ import Table from "../Table";
 
 const PageTwo = () => {
   return (
-    <Slide backgroundImage="/src/assets/uncharted.png">
+    <Slide backgroundImage="/assets/uncharted.png">
       <div className="flex flex-col gap-y-2">
         <Section title="Une liste de jeux conséquente">
           Lilian a possédé plus <strong>d’une soixantaine de jeux</strong>, une

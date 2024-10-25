@@ -5,7 +5,7 @@ import Slide from "../Slide";
 
 const PageThree = () => {
   return (
-    <Slide backgroundImage="/src/assets/minecraft.jpeg">
+    <Slide backgroundImage="/assets/minecraft.jpeg">
       <Section title="Amis, famille et jeux vidéo">
         Durant son enfance, Lilian passait énormément de temps à jouer aux jeux
         vidéo, souvent{" "}
@@ -66,8 +66,8 @@ const PageThree = () => {
           </span>
         </Section>
         <RightImgBlock
-          imgGif="/src/assets/sonic.gif"
-          imgFix="/src/assets/sonic_fix.jpg"
+          imgGif="/assets/sonic.gif"
+          imgFix="/assets/sonic_fix.jpg"
         >
           <strong>Sonic the Hedgehog</strong> reste, sans surprise, la licence
           qui occupe une place particulière dans son cœur. “C’est la licence à
@@ -79,8 +79,8 @@ const PageThree = () => {
           qu'il retrouve à chaque nouvelle partie.
         </RightImgBlock>
         <LeftImgBlock
-          imgGif="/src/assets/uncharted4.gif"
-          imgFix="/src/assets/uncharted4_fix.jpg"
+          imgGif="/assets/uncharted4.gif"
+          imgFix="/assets/uncharted4_fix.jpg"
         >
           <strong>Uncharted</strong> a été une expérience marquante, mais pour
           d’autres raisons. “C’était ma première expérience narrative dans un
@@ -94,8 +94,8 @@ const PageThree = () => {
           ses environnements plus variés que le deuxième.”
         </LeftImgBlock>
         <RightImgBlock
-          imgGif="/src/assets/pokemon.gif"
-          imgFix="/src/assets/pokemon_fix.jpg"
+          imgGif="/assets/pokemon.gif"
+          imgFix="/assets/pokemon_fix.jpg"
         >
           <strong>Pokémon</strong> est également une franchise incontournable
           dans la vie de Lilian. “Qu’il s’agisse des jeux vidéo, du dessin animé

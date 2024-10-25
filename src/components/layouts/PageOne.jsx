@@ -3,7 +3,7 @@ import Section from "../Section";
 
 const PageOne = () => {
   return (
-    <Slide backgroundImage="/src/assets/greenhill.jpg">
+    <Slide backgroundImage="/assets/greenhill.jpg">
       <section>
         <h1 className="flex flex-col mb-3 font-play">
           <span class="ml-[-10px] text-8xl uppercase leading-[80px]">
@@ -75,7 +75,7 @@ const PageOne = () => {
           pouvoir aussi en profiter” déclare-t-il.
         </Section>
         <div className="mt-2">
-          <img src="/src/assets/timeline_supports.png" alt="" />
+          <img src="/assets/timeline_supports.PNG" alt="" />
           <span className="text-sm italic font-semibold 2xl:text-xl">
             Frise chronologique des supports de jeu de Lilian Peuron
           </span>

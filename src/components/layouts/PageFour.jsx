@@ -8,11 +8,11 @@ import { Line } from "react-chartjs-2";
 
 const PageFour = () => {
   return (
-    <Slide backgroundImage="/src/assets/ssbu.jpg">
+    <Slide backgroundImage="/assets/ssbu.jpg">
       <div className="flex flex-col gap-y-4">
         <LeftImgBlock
-          imgGif="/src/assets/icarus.gif"
-          imgFix="/src/assets/icarus_fix.jpg"
+          imgGif="/assets/icarus.gif"
+          imgFix="/assets/icarus_fix.jpg"
         >
           <strong>Kid Icarus: Uprising</strong> a marqué une étape importante
           dans la vie de Lilian, notamment en raison de son statut de premier
@@ -24,8 +24,8 @@ const PageFour = () => {
           aujourd’hui, il m’arrive de relancer le jeu quand j’allume ma 3DS.”
         </LeftImgBlock>
         <RightImgBlock
-          imgGif="/src/assets/tekken.gif"
-          imgFix="/src/assets/tekken_fix.jpg"
+          imgGif="/assets/tekken.gif"
+          imgFix="/assets/tekken_fix.jpg"
         >
           Pour ce qui est des jeux de combat, <strong>Tekken 6</strong> reste
           son favori. “J’aime énormément les jeux de combat, mais Tekken 6 est
@@ -35,8 +35,8 @@ const PageFour = () => {
           l’importance de ce jeu dans ses souvenirs vidéoludiques.
         </RightImgBlock>
         <LeftImgBlock
-          imgGif="/src/assets/minecraft.gif"
-          imgFix="/src/assets/minecraft_fix.jpg"
+          imgGif="/assets/minecraft.gif"
+          imgFix="/assets/minecraft_fix.jpg"
         >
           Enfin, <strong>Minecraft</strong> est sans doute l’un des jeux les
           plus emblématiques de son adolescence. “Minecraft est un
