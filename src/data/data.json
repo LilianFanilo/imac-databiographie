@@ -1,0 +1,142 @@
+[
+  {
+    "nom": "Call Of Duty: Ghost",
+    "editeur": "Activision",
+    "dateDeSortie": "5 novembre 2013",
+    "genre": "FPS",
+    "completion": "100%"
+  },
+  {
+    "nom": "Dragon ball Xenoverse",
+    "editeur": "Bandai Namco",
+    "dateDeSortie": "27 février 2015",
+    "genre": "Combat, RPG",
+    "completion": "75%"
+  },
+  {
+    "nom": "Dragon ball Xenoverse 2",
+    "editeur": "Bandai Namco",
+    "dateDeSortie": "28 octobre 2016",
+    "genre": "Combat, RPG",
+    "completion": "50%"
+  },
+  {
+    "nom": "Elsword",
+    "editeur": "KOG",
+    "dateDeSortie": "27 février 2007",
+    "genre": "MMORPG",
+    "completion": "25%"
+  },
+  {
+    "nom": "Genshin Impact",
+    "editeur": "HoYoverse",
+    "dateDeSortie": "28 septembre 2020",
+    "genre": "Action-RPG",
+    "completion": "50%"
+  },
+  {
+    "nom": "Inazuma Eleven 2: Tempête de Glace",
+    "editeur": "Level-5",
+    "dateDeSortie": "16 octobre 2009",
+    "genre": "Sport, RPG",
+    "completion": "100%"
+  },
+  {
+    "nom": "Kid Icarus: Uprising",
+    "editeur": "Nintendo",
+    "dateDeSortie": "23 mars 2012",
+    "genre": "Action-aventure",
+    "completion": "100%"
+  },
+  {
+    "nom": "Mario & Luigi au centre de Bowser",
+    "editeur": "Nintendo",
+    "dateDeSortie": "12 février 2009",
+    "genre": "RPG",
+    "completion": "75%"
+  },
+  {
+    "nom": "Mario Kart 8 Deluxe",
+    "editeur": "Nintendo",
+    "dateDeSortie": "28 avril 2017",
+    "genre": "Course",
+    "completion": "100%"
+  },
+  {
+    "nom": "Marvel vs Capcom 3",
+    "editeur": "Capcom",
+    "dateDeSortie": "15 février 2011",
+    "genre": "Combat",
+    "completion": "25%"
+  },
+  {
+    "nom": "Megaman ZX",
+    "editeur": "Capcom",
+    "dateDeSortie": "6 juillet 2006",
+    "genre": "Action-aventure, plateforme",
+    "completion": "100%"
+  },
+  {
+    "nom": "Megaman ZX Advent",
+    "editeur": "Capcom",
+    "dateDeSortie": "12 juillet 2007",
+    "genre": "Action-aventure, plateforme",
+    "completion": "100%"
+  },
+  {
+    "nom": "Monster Hunter 3 Ultimate",
+    "editeur": "Capcom",
+    "dateDeSortie": "23 mars 2013",
+    "genre": "Action-RPG",
+    "completion": "10%"
+  },
+  {
+    "nom": "Monster Hunter 4",
+    "editeur": "Capcom",
+    "dateDeSortie": "14 février 2013",
+    "genre": "Action-RPG",
+    "completion": "10%"
+  },
+  {
+    "nom": "Sonic Generations",
+    "editeur": "Sega",
+    "dateDeSortie": "4 novembre 2011",
+    "genre": "Plateforme",
+    "completion": "100%"
+  },
+  {
+    "nom": "Sonic Frontiers",
+    "editeur": "Sega",
+    "dateDeSortie": "8 novembre 2022",
+    "genre": "Plateforme",
+    "completion": "100%"
+  },
+  {
+    "nom": "Super Smash Bros Ultimate",
+    "editeur": "Nintendo",
+    "dateDeSortie": "7 décembre 2018",
+    "genre": "Combat",
+    "completion": "75%"
+  },
+  {
+    "nom": "Tekken 6",
+    "editeur": "Bandai Namco",
+    "dateDeSortie": "27 novembre 2009",
+    "genre": "Combat",
+    "completion": "50%"
+  },
+  {
+    "nom": "Animal Crossing Home Designer",
+    "editeur": "Nintendo",
+    "dateDeSortie": "2 octobre 2015",
+    "genre": "Simulation de vie",
+    "completion": "60%"
+  },
+  {
+    "nom": "Animal Crossing New leaf",
+    "editeur": "Nintendo",
+    "dateDeSortie": "14 juin 2013",
+    "genre": "Simulation de vie",
+    "completion": "25%"
+  }
+]
