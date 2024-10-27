@@ -57,9 +57,9 @@ const PageThree = () => {
         quel point le jeu vidéo a été une constante tout au long de son
         parcours.
       </Section>
-      <div className="flex flex-col gap-y-4">
+      <div className="flex flex-col gap-y-2">
         <Section title="“Les jeux qui m’ont le plus marqué”">
-          <span className="text-sm italic font-semibold 2xl:text-xl">
+          <span className="text-sm italic font-semibold">
             Pour mieux comprendre son rapport aux jeux vidéo durant son enfance,
             j’ai demandé à Lilian quels sont les titres qui l’ont le plus
             marqué.

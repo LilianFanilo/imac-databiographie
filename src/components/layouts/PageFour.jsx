@@ -130,7 +130,7 @@ const PageFour = () => {
             }}
           />
         </div>
-        <span className="text-sm italic font-semibold 2xl:text-xl">
+        <span className="text-sm italic font-semibold">
           Graphique de l'évolution du temps de jeu de Lilian Peuron
         </span>
       </div>

@@ -9,11 +9,11 @@ const PageOne = () => {
           <span class="ml-[-10px] text-8xl uppercase leading-[80px]">
             Gamer’s Life
           </span>
-          <span class="text-xl 2xl:text-3xl">
+          <span class="text-xl">
             Comment la vie de Lilian Peuron a rencontré l’univers du jeu vidéo.
           </span>
         </h1>
-        <p class="italic font-semibold text-justify 2xl:text-2xl">
+        <p class="italic font-semibold text-justify">
           Depuis son enfance jusqu'à ses 20 ans, Lilian Peuron a exploré plus
           d’une soixantaine de jeux vidéo, naviguant entre des titres iconiques
           comme Mario, Sonic ou Pokémon et des jeux plus confidentiels, tels que
@@ -75,7 +75,7 @@ const PageOne = () => {
         </Section>
         <div className="mt-2">
           <img src="/assets/timeline_supports.PNG" alt="" />
-          <span className="text-sm italic font-semibold 2xl:text-xl">
+          <span className="text-sm italic font-semibold">
             Frise chronologique des supports de jeu de Lilian Peuron
           </span>
         </div>

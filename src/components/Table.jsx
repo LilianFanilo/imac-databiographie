@@ -5,7 +5,7 @@ const Table = () => {
     <div>
       <table className="block p-3 mb-1 border">
         <thead>
-          <tr className="text-sm 2xl:text-xl">
+          <tr className="text-sm">
             <th>Nom</th>
             <th>Éditeur</th>
             <th>Date de sortie</th>
@@ -15,7 +15,7 @@ const Table = () => {
         </thead>
         <tbody>
           {data.map((item, index) => (
-            <tr className="text-xs 2xl:text-xl" key={index}>
+            <tr className="text-xs" key={index}>
               <td>{item.nom}</td>
               <td>{item.editeur}</td>
               <td>{item.dateDeSortie}</td>
@@ -25,7 +25,7 @@ const Table = () => {
           ))}
         </tbody>
       </table>
-      <p className="text-sm italic font-semibold 2xl:text-xl">
+      <p className="text-sm italic font-semibold">
         Extrait de la liste des jeux et de leur complétion
       </p>
     </div>

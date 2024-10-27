@@ -17,7 +17,7 @@ import "swiper/css/pagination";
 
 function App() {
   return (
-    <main className="flex overflow-x-scroll scroll-smooth max-h-[100vh] overflow-y-hidden">
+    <main className="flex max-h-[100vh] overflow-y-hidden">
       <Swiper
         modules={[
           Navigation,

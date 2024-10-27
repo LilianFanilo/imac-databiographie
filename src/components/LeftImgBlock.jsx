@@ -16,7 +16,7 @@ const LeftImgBlock = (props) => {
         </div>
         <span>{props.caption}</span>
       </div>
-      <p className="w-1/2 text-xs text-justify 2xl:text-xl font-poppins">
+      <p className="w-1/2 text-xs text-justify font-poppins">
         {props.children}
       </p>
     </div>
