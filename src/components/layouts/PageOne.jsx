@@ -17,12 +17,11 @@ const PageOne = () => {
           Depuis son enfance jusqu'à ses 20 ans, Lilian Peuron a exploré plus
           d’une soixantaine de jeux vidéo, naviguant entre des titres iconiques
           comme Mario, Sonic ou Pokémon et des jeux plus confidentiels, tels que
-          Kid Icarus: Uprising, Robocraft ou Elsword. Cette passion, qui
-          l'accompagne depuis son enfance, a évolué avec le temps, marquant
-          chaque étape de sa vie. Mais comment tout cela a-t-il commencé ?
-          Comment s’est déroulée sa première rencontre avec le monde fascinant
-          des jeux vidéo, et surtout, qu’est-ce qui l’a poussé à plonger aussi
-          profondément dans cet univers ?
+          Kid Icarus: Uprising, Robocraft ou Elsword. Cette passion a évolué
+          avec le temps, marquant chaque étape de sa vie. Mais comment tout cela
+          a-t-il commencé ? Comment s’est déroulée sa première rencontre avec le
+          monde fascinant des jeux vidéo, et surtout, qu’est-ce qui l’a poussé à
+          plonger aussi profondément dans cet univers ?
         </p>
       </section>
       <div className="flex flex-col col-start-2 gap-y-2">
