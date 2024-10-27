@@ -33,7 +33,7 @@ const PageTwo = () => {
           déplu. Enfin, il y a des cas comme Monster Hunter qui est une licence
           que j’aime de par son univers et que pourtant je n’ai jamais achevé
           car les jeux sont longs, complexes et demandent de refaire plusieurs
-          fois des missions pour améliorer ces équipements. Je ne cherche plus
+          fois des missions pour améliorer ses équipements. Je ne cherche plus
           de longues aventures, je suis plutôt pour des expériences qui
           m'offrent une rejouabilité ou des jeux multijoueurs pour passer du
           temps avec mes amis. Si l’histoire d’un jeu m'intéresse, j’aurais
