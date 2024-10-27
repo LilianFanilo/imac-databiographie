@@ -70,7 +70,7 @@ const PageOne = () => {
           <strong>PC gaming</strong> qui lui offre la possibilité de jouer à des
           jeux qui demandent plus d’espace et de performance. “Évidemment
           l’objectif de cet achat était les études pour ma formation en BUT MMI
-          (Métier du Multimédia et de l’Internet), mais j’étais content de
+          (Métiers du Multimédia et de l’Internet), mais j’étais content de
           pouvoir aussi en profiter” déclare-t-il.
         </Section>
         <div className="mt-2">
