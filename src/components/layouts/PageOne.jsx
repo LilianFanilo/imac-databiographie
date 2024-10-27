@@ -42,8 +42,8 @@ const PageOne = () => {
           son tout premier jeu, <strong>Pokémon SoulSilver</strong>, remake du
           jeu de la deuxième génération nous faisant parcourir la région de
           Johto à la recherche de ces fameuses créatures afin de devenir le
-          meilleur des dresseur. “Je voyais le jeu Pokémon sur toutes les pubs à
-          la télévision, j’étais tellement heureux de l’avoir eu.” Lilian n’a
+          meilleur des dresseurs. “Je voyais le jeu Pokémon sur toutes les pubs
+          à la télévision, j’étais tellement heureux de l’avoir eu.” Lilian n’a
           pas échappé à la popularité de la Nintendo DS étant la seconde console
           la plus vendue de tous les temps. Il profita de cette console jusqu’en{" "}
           <strong>2012</strong> avant de la revendre pour pouvoir s’acheter la{" "}
