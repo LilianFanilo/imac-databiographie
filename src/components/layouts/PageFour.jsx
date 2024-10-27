@@ -1,139 +1,101 @@
-import LeftImgBlock from "../LeftImgBlock";
-import RightImgBlock from "../RightImgBlock";
 import Section from "../Section";
 import Slide from "../Slide";
-/*Ne pas enlever cette ligne*/
-import { Chart as ChartJS, Colors } from "chart.js/auto";
-import { Line } from "react-chartjs-2";
 
 const PageFour = () => {
   return (
-    <Slide backgroundImage="/assets/ssbu.jpg">
-      <div className="flex flex-col gap-y-4">
-        <LeftImgBlock
-          imgGif="/assets/icarus.gif"
-          imgFix="/assets/icarus_fix.jpg"
-        >
-          <strong>Kid Icarus: Uprising</strong> a marqué une étape importante
-          dans la vie de Lilian, notamment en raison de son statut de premier
-          jeu pour la Nintendo 3DS. “Ce jeu a une place spéciale pour moi.
-          C’était mon premier jeu sur la Nintendo 3DS, mais ce n’est pas
-          seulement pour ça que je l’adore. Pour moi, c’est le jeu le plus
-          abouti de la console en termes de gameplay.” Lilian souligne également
-          la qualité du mode en ligne, impressionnant pour l’époque. “Encore
-          aujourd’hui, il m’arrive de relancer le jeu quand j’allume ma 3DS.”
-        </LeftImgBlock>
-        <RightImgBlock
-          imgGif="/assets/tekken.gif"
-          imgFix="/assets/tekken_fix.jpg"
-        >
-          Pour ce qui est des jeux de combat, <strong>Tekken 6</strong> reste
-          son favori. “J’aime énormément les jeux de combat, mais Tekken 6 est
-          celui qui sort du lot. C’est celui où j’ai passé le plus d’heures, que
-          ce soit en solo ou en jouant avec ma famille.” Pour Lilian, Tekken 6
-          symbolise ces moments de partage avec ses proches, renforçant
-          l’importance de ce jeu dans ses souvenirs vidéoludiques.
-        </RightImgBlock>
-        <LeftImgBlock
-          imgGif="/assets/minecraft.gif"
-          imgFix="/assets/minecraft_fix.jpg"
-        >
-          Enfin, <strong>Minecraft</strong> est sans doute l’un des jeux les
-          plus emblématiques de son adolescence. “Minecraft est un
-          incontournable pour moi. Il m’a accompagné pendant une grande partie
-          de mon adolescence, et c’est l’un des rares jeux que j’ai partagé avec
-          toutes les personnes que je connaissais, amis et famille.” Ce jeu de
-          construction sans fin, qui a su captiver des millions de joueurs à
-          travers le monde, a également une place particulière dans la vie de
-          Lilian. Même aujourd’hui, il continue à suivre l’évolution du jeu à
-          travers les vidéos et le contenu en ligne. “C’est un jeu que je ne me
-          lasse jamais de suivre, même si je n’y joue plus autant qu’avant.”
-        </LeftImgBlock>
-      </div>
-      <div>
-        <Section title="Et maintenant ?">
-          Lilian Peuron a vu sa fréquence de jeu évoluer au fil des années,
-          influencée par ses obligations, ses études, et les événements
-          marquants de sa vie. Durant le collège, les jeux vidéo occupaient une
-          place centrale dans ses journées. “Dès que la journée de cours était
-          finie, je rentrais chez moi pour allumer mon PC. Que ce soit pour
-          jouer seul ou en ligne avec mes amis, c’était presque une routine
-          quotidienne.” À cette époque, les jeux vidéo représentaient non
-          seulement un divertissement, mais aussi un moyen de décompresser après
-          les cours et de rester connecté avec son groupe d’amis. La pandémie de
-          COVID-19 a marqué un tournant décisif dans sa relation avec les jeux
-          vidéo, notamment en ce qui concerne le temps qu’il y consacrait. “Sans
-          hésiter, je pense que c’était la période où j’ai le plus joué de toute
-          ma vie. Avec les confinements, le monde semblait s’arrêter, mais pour
-          moi, c’était une opportunité de me plonger à fond dans les jeux. La
-          situation était difficile pour beaucoup de gens, mais honnêtement, je
-          n’ai jamais été aussi content de rester chez moi” avoue-t-il.
-          Cependant, aujourd'hui, la fréquence de jeu a considérablement
-          diminué. “Maintenant, avec mes études, je suis plus fatigué, et j’ai
-          pris l’habitude de me détendre autrement, en regardant des streams ou
-          des vidéos sur YouTube plutôt qu’en jouant. C’est devenu une forme de
-          relaxation passive que je préfère après une journée chargée.” Lilian
-          admet que ses priorités ont changé et que ses études l'ont amené à
-          privilégier d’autres formes de divertissement. Cela dit, il n’a pas
-          totalement abandonné le jeu vidéo. Lors des vacances, Lilian retrouve
-          parfois le plaisir de jouer, mais sous une autre forme : “C’est
-          surtout pendant les vacances que je reprends un peu la manette ou que
-          je me mets à jouer à mes jeux mobiles.” Les jeux sur smartphone,
-          souvent plus accessibles et adaptés à des sessions courtes, lui
-          permettent de retrouver un plaisir de jeu, sans pour autant s’investir
-          dans de longues sessions comme avant. En résumé, d’un investissement
-          intense durant le collège et la pandémie, à une relation plus modérée
-          aujourd’hui, marquée par des périodes de pause et de détente pendant
-          ses vacances, la fréquence de jeu de Lilian a suivi l’évolution de sa
-          vie. Bien que ses habitudes aient changé, sa passion pour les jeux
-          vidéo reste intacte, même si elle se manifeste désormais de manière
-          différente.
-        </Section>
-        <div className="flex justify-center h-64 p-5 mt-2 align-middle bg-white rounded font-poppins">
-          <Line
-            data={{
-              labels: [
-                "2003",
-                "2004",
-                "2005",
-                "2006",
-                "2007",
-                "2008",
-                "2009",
-                "2010",
-                "2011",
-                "2012",
-                "2013",
-                "2014",
-                "2015",
-                "2016",
-                "2017",
-                "2018",
-                "2019",
-                "2020",
-                "2021",
-                "2022",
-                "2023",
-                "2024",
-              ],
-              datasets: [
-                {
-                  label: "Heures de jeu/semaine",
-                  data: [
-                    0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 5, 5, 5, 5, 5, 3,
-                    3, 2,
-                  ],
-                  backgroundColor: "blue",
-                  borderColor: "blue",
-                },
-              ],
-            }}
-          />
-        </div>
-        <span className="text-sm italic font-semibold">
-          Graphique de l'évolution du temps de jeu de Lilian Peuron
-        </span>
-      </div>
+    <Slide backgroundImage="/assets/minecraft.jpeg">
+      <Section title="Des jeux colorés, de l’action et de la stratégie">
+        Après avoir minutieusement listé tous les jeux que Lilian Peuron a
+        possédés au fil des années, un constat évident s'impose : la majorité
+        d'entre eux se répartissent principalement dans les genres de{" "}
+        <strong>
+          la plateforme, de l’aventure, du combat et de la stratégie
+        </strong>
+        . Ces choix reflètent non seulement ses préférences de joueur, mais
+        aussi son évolution en tant que gamer. “Comme je l’ai déjà mentionné, je
+        suis surtout à la recherche{" "}
+        <strong>
+          d’une expérience courte mais captivante, avec de la rejouabilité,
+        </strong>{" "}
+        ou d’un jeu <strong>que je peux lancer à n’importe quel moment</strong>{" "}
+        pour passer le temps.” Lilian privilégie des jeux où il peut s'immerger
+        rapidement sans avoir à investir de longues heures. Cette recherche de
+        flexibilité explique son attrait pour les jeux multijoueurs avec des
+        parties de courte durée. “J’aime pouvoir démarrer une partie, jouer
+        pendant un moment, puis m’arrêter sans avoir l’impression d’être coupé
+        en plein milieu d’une mission longue.{" "}
+        <strong>Les jeux de combat et de stratégie</strong> sont parfaits pour
+        ça, car ils offrent des sessions intenses mais relativement brèves, avec
+        toujours la possibilité de rejouer pour s’améliorer ou explorer d’autres
+        approches.” Au-delà des jeux de combat et de stratégie, Lilian se tourne
+        également vers des jeux de plateforme et d’aventure, des genres qui,
+        bien que souvent plus longs, offrent cette rejouabilité qu’il
+        affectionne. Il évoque des titres comme{" "}
+        <strong>Sonic Generations ou Uncharted 3: Drake’s Deception</strong>,
+        des jeux qui, malgré une progression linéaire, permettent de revenir
+        pour améliorer des scores, découvrir des secrets ou simplement revivre
+        des niveaux favoris. “Les jeux de plateforme ont toujours eu une place
+        spéciale pour moi. Ce sont des jeux où la maîtrise est gratifiante, et
+        ils sont souvent colorés et accessibles, deux choses qui me plaisent
+        énormément.” Lilian apprécie particulièrement les jeux qui, bien
+        qu’accessibles, offrent de la profondeur. “Les jeux de stratégie, par
+        exemple, c’est un genre où tu peux toujours trouver de nouvelles façons
+        d’aborder un problème ou de créer de nouvelles combinaisons. Il y a les
+        RPG comme Pokemon ou Inazuma Eleven où l’on crée nos propres équipes ou
+        encore Yu-Gi-OH Duel Master où l’on crée notre propre Deck pour faire
+        face aux stratégies de notre adversaire.”
+      </Section>
+      <Section title="Amis, famille et jeux vidéo">
+        Durant son enfance, Lilian passait énormément de temps à jouer aux jeux
+        vidéo, souvent{" "}
+        <strong>en compagnie de son père, surtout à des jeux de combats</strong>
+        . “Mon père avait une philosophie très compétitive, c’était ‘je gagne,
+        peu importe qui est en face’. Mais au final, soit il était mauvais
+        perdant, soit il répétait sans cesse la même technique pour l’emporter.
+        Malgré tout, on finissait toujours par bien s’amuser !” En tant que fils
+        unique, les jeux vidéo ont joué un rôle important dans la vie de Lilian,
+        non seulement pour s'occuper mais aussi pour créer des liens. “Quand la
+        journée de cours se terminait, mes amis et moi nous précipitions chez
+        nous, on se connectait sur Skype et on lançait Minecraft. C’était notre
+        manière de rester ensemble en dehors de l’école.” À une époque où les
+        mondes virtuels devenaient des terrains de jeu partagés,{" "}
+        <strong>Minecraft</strong> était un moyen pour Lilian de construire,
+        collaborer, et renforcer les liens avec ses camarades. Le passage du
+        collège au lycée n’a fait qu’accentuer cette habitude. “J’invitais
+        régulièrement des <strong>amis à la maison</strong> pour jouer sur la
+        PlayStation 3, et on passait des heures sur{" "}
+        <strong>Call of Duty: Ghosts en écran partagé</strong>. On n’était pas
+        vraiment des experts, mais on formait une équipe soudée. Il y avait
+        toujours cette petite compétition, mais au fond, le but était simplement
+        de passer un bon moment ensemble.” Ces moments en local avec des amis
+        étaient essentiels, représentant une époque où la convivialité des
+        multijoueurs se vivait souvent côte à côte, sur un même canapé. Durant
+        sa formation en{" "}
+        <strong>BUT MMI (Métiers du Multimédia et de l’Internet)</strong>,
+        Lilian a découvert une nouvelle manière de tisser des liens sociaux,
+        cette fois-ci grâce à des jeux beaucoup plus récents. « Si je devais
+        choisir un jeu emblématique de cette période, ce serait sans doute
+        Valorant. C’était la première fois que je me retrouvais à jouer avec
+        autant de personnes dans des parties locales, organisant des
+        affrontements 5 contre 5. » <strong>Valorant</strong>, le célèbre jeu de
+        tir tactique en équipe de Riot Games, a offert à Lilian et à ses
+        camarades de classe un nouveau terrain de jeu pour la compétition et la
+        coopération. L’organisation de ces parties, souvent lors de soirées ou
+        d’événements, a renforcé les relations qu’il entretenait avec ses amis
+        et ses collègues de promotion. Ces expériences multijoueurs, qu'elles
+        soient en local avec des amis, ou en ligne avec des équipes, ont façonné
+        une grande partie de la vie sociale de Lilian autour du jeu vidéo. Les
+        jeux sont devenus non seulement un divertissement, mais aussi un outil
+        pour <strong>connecter, échanger et collaborer avec les autres</strong>,
+        qu'il s'agisse de{" "}
+        <strong>
+          membres de la famille, d'amis proches, ou de camarades de classe
+        </strong>{" "}
+        rencontrés au cours de ses études. Aujourd’hui encore, ces moments
+        partagés devant un écran restent gravés dans sa mémoire, illustrant à
+        quel point le jeu vidéo a été une constante tout au long de son
+        parcours.
+      </Section>
     </Slide>
   );
 };

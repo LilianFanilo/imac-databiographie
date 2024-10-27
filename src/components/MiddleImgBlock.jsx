@@ -1,7 +1,7 @@
-const LeftImgBlock = (props) => {
+const MiddleImgBlock = (props) => {
   return (
-    <div className="flex gap-x-3">
-      <div className="w-1/2">
+    <div className="flex flex-col items-center gap-y-3">
+      <div className="w-2/3">
         <div className="relative w-full overflow-hidden group">
           <img
             src={props.imgGif}
@@ -16,11 +16,11 @@ const LeftImgBlock = (props) => {
         </div>
         <span>{props.caption}</span>
       </div>
-      <p className="w-1/2 text-sm text-justify font-poppins">
+      <p className="w-2/3 text-sm text-justify font-poppins">
         {props.children}
       </p>
     </div>
   );
 };
 
-export default LeftImgBlock;
+export default MiddleImgBlock;

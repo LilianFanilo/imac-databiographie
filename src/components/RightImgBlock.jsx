@@ -1,7 +1,7 @@
 const RightImgBlock = (props) => {
   return (
     <div className="flex gap-x-3">
-      <p className="w-1/2 text-xs text-justify font-poppins">
+      <p className="w-1/2 text-sm text-justify font-poppins">
         {props.children}
       </p>
       <div className="w-1/2">

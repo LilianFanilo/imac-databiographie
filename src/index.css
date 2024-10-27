@@ -6,6 +6,10 @@
   color: rgb(240, 240, 240);
 }
 
+li {
+  color: black;
+}
+
 body {
   background-color: black;
 }

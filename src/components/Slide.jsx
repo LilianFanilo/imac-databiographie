@@ -36,7 +36,7 @@ const Slide = (props) => {
   return (
     <div
       ref={slideRef}
-      className={`grid min-w-[100vw] h-screen grid-cols-2 p-12 pt-4 gap-x-6 transition-opacity duration-1000 ${
+      className={`grid min-w-[100vw] h-screen grid-cols-2 p-12 pt-6 gap-x-6 transition-opacity duration-1000 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       style={divStyle}

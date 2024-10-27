@@ -14,6 +14,9 @@ import {
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import PageFive from "./components/layouts/PageFive";
+import PageSix from "./components/layouts/PageSix";
+import PageSeven from "./components/layouts/PageSeven";
 
 function App() {
   return (
@@ -45,6 +48,15 @@ function App() {
         </SwiperSlide>
         <SwiperSlide>
           <PageFour />
+        </SwiperSlide>
+        <SwiperSlide>
+          <PageFive />
+        </SwiperSlide>
+        <SwiperSlide>
+          <PageSix />
+        </SwiperSlide>
+        <SwiperSlide>
+          <PageSeven />
         </SwiperSlide>
       </Swiper>
     </main>
